@@ -2,14 +2,7 @@
 
 Mohan A @Andorid Developer
 
-<img align="right" width="370" height="290"src="https://firebasestorage.googleapis.com/v0/b/movienow-adc45.appspot.com/o/VID_20240611_101913003238.mp4?alt=media&token=96ee5da6-65df-4bd9-ba45-19ffbb2e6733">
-
-## Embedded Firebase Video
-
-<video width="320" height="240" controls>
-  <source src="https://firebasestorage.googleapis.com/v0/b/movienow-adc45.appspot.com/o/VID_20240611_101913003238.mp4?alt=media&token=96ee5da6-65df-4bd9-ba45-19ffbb2e6733" type="video/mp4">
-</video>
-
+<img width="200" height="300" src="https://s7.ezgif.com/tmp/ezgif-7-93d6510358.gif">
 
 #### A preview of url link usually contains the title, a description, the domain name and an image.
 
