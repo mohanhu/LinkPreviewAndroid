@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:8.4.1] /Users/mohana/Documents/caches/transforms-4/ec5d9960e719f48cc969ade648737148/transformed/viewbinding-8.4.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/mohana/Documents/caches/transforms-4/b935cb2b116a291919d27ebe0faefe88/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mohana/Documents/caches/transforms-4/0b9f26ba90c4823d6552d186a379deda/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -60,9 +60,13 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mohana/Do
 		INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:5:5-24:19
-INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:7:5-26:19
+INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/mohana/Documents/caches/transforms-4/b935cb2b116a291919d27ebe0faefe88/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/mohana/Documents/caches/transforms-4/b935cb2b116a291919d27ebe0faefe88/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mohana/Documents/caches/transforms-4/0b9f26ba90c4823d6552d186a379deda/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -84,39 +88,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/moha
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/mohana/Documents/caches/transforms-4/8d74154e3e2eecb90882161296a202b7/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:13:9-56
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:15:9-56
 	android:dataExtractionRules
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:9:9-65
 activity#com.example.linkpreviewandroid.MainActivity
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:exported
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mohana/AndroidStudioProjects/LinkPreviewAndroid/app/src/main/AndroidManifest.xml
