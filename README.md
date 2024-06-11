@@ -8,7 +8,6 @@ Mohan A @Andorid Developer
 
 <video width="320" height="240" controls>
   <source src="https://firebasestorage.googleapis.com/v0/b/movienow-adc45.appspot.com/o/VID_20240611_101913003238.mp4?alt=media&token=96ee5da6-65df-4bd9-ba45-19ffbb2e6733" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
 
