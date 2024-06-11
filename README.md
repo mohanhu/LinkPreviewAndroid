@@ -13,7 +13,7 @@ implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
 implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
 implementation 'org.jsoup:jsoup:1.14.3'
 ```
-To help to retrieve MetaData using url link support browser and youtube ❤️ .
+This one help to retrieve MetaData using url link support browser and youtube ❤️ .
 
 ```java
 object Utils {
