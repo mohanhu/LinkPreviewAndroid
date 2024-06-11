@@ -17,8 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4d66222-ea9e-44f5-bd68-75e8e2e7469c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/linkpreviewandroid/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/linkpreviewandroid/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RichEditWebApp/app/src/main/res/drawable/add_link_logo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RichEditWebApp/app/src/main/res/drawable/code_block.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RichEditWebApp/app/src/main/res/drawable/code_rich_edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RichEditWebApp/app/src/main/res/drawable/under_split_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RichEditWebApp/app/src/main/res/navigation/rich_edit_new_nav.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/build.gradle.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/google-services.json" beforeDir="false" />

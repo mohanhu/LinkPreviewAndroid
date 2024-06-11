@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -34,16 +35,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   @NonNull
+  public final ProgressBar progress;
+
+  @NonNull
   public final TextView title;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView desc,
       @NonNull EditText editTextId, @NonNull ImageView image, @NonNull ConstraintLayout main,
-      @NonNull TextView title) {
+      @NonNull ProgressBar progress, @NonNull TextView title) {
     this.rootView = rootView;
     this.desc = desc;
     this.editTextId = editTextId;
     this.image = image;
     this.main = main;
+    this.progress = progress;
     this.title = title;
   }
 
@@ -94,6 +99,12 @@ public final class ActivityMainBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
+      id = R.id.progress;
+      ProgressBar progress = ViewBindings.findChildViewById(rootView, id);
+      if (progress == null) {
+        break missingId;
+      }
+
       id = R.id.title;
       TextView title = ViewBindings.findChildViewById(rootView, id);
       if (title == null) {
@@ -101,7 +112,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, desc, editTextId, image, main,
-          title);
+          progress, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

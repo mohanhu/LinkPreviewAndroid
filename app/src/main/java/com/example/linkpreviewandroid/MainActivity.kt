@@ -2,6 +2,7 @@ package com.example.linkpreviewandroid
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.editTextId.doOnTextChanged { text, start, before, count ->
             retrievePreview(binding.editTextId.text.toString())
+            binding.progress.visibility = View.VISIBLE
         }
     }
 
@@ -36,9 +38,11 @@ class MainActivity : AppCompatActivity() {
                     Glide.with(this).load(result.image).into(binding.image)
                     binding.title.text = result.title
                     binding.desc.text = result.description
+                    binding.progress.visibility = View.GONE
                 },
                 { error ->
                     run {
+                        binding.progress.visibility = View.GONE
                         println("MainActivity >>> $error")
                         Toast.makeText(this, "Failed", Toast.LENGTH_SHORT).show()
                     }

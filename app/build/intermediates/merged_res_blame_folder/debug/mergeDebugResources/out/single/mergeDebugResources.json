@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
         "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/xml_backup_rules.xml.flat",
         "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/layout_activity_main.xml.flat",
         "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",

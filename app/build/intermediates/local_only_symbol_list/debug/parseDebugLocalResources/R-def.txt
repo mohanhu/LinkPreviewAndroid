@@ -8,6 +8,7 @@ id desc
 id edit_text_id
 id image
 id main
+id progress
 id title
 layout activity_main
 mipmap ic_launcher
