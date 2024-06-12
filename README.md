@@ -2,8 +2,6 @@
 
 Mohan A @Andorid Developer
 
-<img width="200" height="300" src="https://s7.ezgif.com/tmp/ezgif-7-93d6510358.gif">
-
 #### A preview of url link usually contains the title, a description, the domain name and an image.
 
 To import below depedencies 👇
