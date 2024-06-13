@@ -13,6 +13,8 @@ implementation 'org.jsoup:jsoup:1.14.3'
 ```
 This one help to retrieve MetaData using url link support browser and youtube ❤️ .
 
+![Funny cat](./images/cat.gif)
+
 ```java
 object Utils {
     @JvmStatic
