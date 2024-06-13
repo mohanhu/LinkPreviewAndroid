@@ -2,6 +2,7 @@ package com.example.linkpreviewandroid
 
 import io.reactivex.rxjava3.core.Observable
 import org.jsoup.Jsoup
+import java.net.URL
 
 object Utils {
     @JvmStatic
@@ -15,7 +16,7 @@ object Utils {
                 val videoUrl = document.select("meta[property=og:video]").attr("content")
                 val description = document.select("meta[property=og:description]").attr("content")
 
-                MetaData(title= title, image = imageUrl, video = videoUrl, description = description)
+                MetaData(title= title, image = imageUrl, video = videoUrl, description = description, domainName = URL(url).host)
             }
             catch (e:Exception){
                 println("getJsoupData $e")
@@ -29,6 +30,7 @@ data class MetaData(
     val title:String,
     val description:String,
     val image:String,
-    val video:String
+    val video:String,
+    val domainName:String
 
 )

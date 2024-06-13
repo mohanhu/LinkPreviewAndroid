@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
                     Glide.with(this).load(result.image).into(binding.image)
                     binding.title.text = result.title
                     binding.desc.text = result.description
+                    binding.domain.text = result.domainName
                     binding.progress.visibility = View.GONE
                 },
                 { error ->

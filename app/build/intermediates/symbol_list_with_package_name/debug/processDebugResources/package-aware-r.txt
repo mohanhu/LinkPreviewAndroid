@@ -3254,6 +3254,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id domain
 id dragAnticlockwise
 id dragClockwise
 id dragDown

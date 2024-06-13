@@ -26,6 +26,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView desc;
 
   @NonNull
+  public final TextView domain;
+
+  @NonNull
   public final EditText editTextId;
 
   @NonNull
@@ -41,10 +44,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView title;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView desc,
-      @NonNull EditText editTextId, @NonNull ImageView image, @NonNull ConstraintLayout main,
-      @NonNull ProgressBar progress, @NonNull TextView title) {
+      @NonNull TextView domain, @NonNull EditText editTextId, @NonNull ImageView image,
+      @NonNull ConstraintLayout main, @NonNull ProgressBar progress, @NonNull TextView title) {
     this.rootView = rootView;
     this.desc = desc;
+    this.domain = domain;
     this.editTextId = editTextId;
     this.image = image;
     this.main = main;
@@ -85,6 +89,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.domain;
+      TextView domain = ViewBindings.findChildViewById(rootView, id);
+      if (domain == null) {
+        break missingId;
+      }
+
       id = R.id.edit_text_id;
       EditText editTextId = ViewBindings.findChildViewById(rootView, id);
       if (editTextId == null) {
@@ -111,8 +121,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, desc, editTextId, image, main,
-          progress, title);
+      return new ActivityMainBinding((ConstraintLayout) rootView, desc, domain, editTextId, image,
+          main, progress, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

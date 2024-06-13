@@ -5,6 +5,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id desc
+id domain
 id edit_text_id
 id image
 id main

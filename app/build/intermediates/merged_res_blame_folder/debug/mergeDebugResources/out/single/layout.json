@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-mergeDebugResources-3:/layout/activity_main.xml",
-        "source": "/Users/mohana/Documents/daemon/8.6/com.example.linkpreviewandroid.app-main-6:/layout/activity_main.xml"
-    },
-    {
         "merged": "com.example.linkpreviewandroid.app-mergeDebugResources-3:/layout/activity_main.xml",
         "source": "com.example.linkpreviewandroid.app-main-6:/layout/activity_main.xml"
     }
